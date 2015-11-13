@@ -6,7 +6,6 @@ class LineItemsController < ApplicationController
   def index
     @line_items = LineItem.all
   end
-
   # GET /line_items/1
   # GET /line_items/1.json
   def show
@@ -26,8 +25,18 @@ class LineItemsController < ApplicationController
   def create
     @cart = current_cart
     product = Product.find(params[:product_id])
+
     @line_item = @cart.line_items.build(product: product)
+
+    # @line_item = LineItem.new
+    # @line_item.product_id = product.id
+    # @line_item.cart_id = @cart.id
+
+    # @line_item = LineItem.new(product_id: product.id,
+    #                           cart_id: @cart.id)
+
     # @line_item = LineItem.new(line_item_params) #使わない
+    session[:counter] = 0
 
     respond_to do |format|
       if @line_item.save
