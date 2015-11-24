@@ -80,7 +80,14 @@
         null,
         null
       ],
+      "/vagrant/depot/app/models/user.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
       "/vagrant/depot/app/controllers/store_controller.rb": [
+        1,
         1,
         null,
         1,
@@ -110,12 +117,19 @@
         null,
         1,
         1,
+        1,
         null,
         1,
         9,
         null,
         null,
         1,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
         null,
         1,
         0,
@@ -135,6 +149,10 @@
         1,
         null
       ],
+      "/vagrant/depot/app/helpers/admin_helper.rb": [
+        1,
+        null
+      ],
       "/vagrant/depot/app/helpers/carts_helper.rb": [
         1,
         null
@@ -151,11 +169,20 @@
         1,
         null
       ],
+      "/vagrant/depot/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
       "/vagrant/depot/app/helpers/store_helper.rb": [
         1,
         null
       ],
+      "/vagrant/depot/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
       "/vagrant/depot/app/controllers/line_items_controller.rb": [
+        1,
         1,
         1,
         null,
@@ -247,6 +274,7 @@
       "/vagrant/depot/app/controllers/carts_controller.rb": [
         1,
         1,
+        1,
         null,
         null,
         null,
@@ -328,6 +356,7 @@
         null
       ],
       "/vagrant/depot/app/controllers/orders_controller.rb": [
+        1,
         1,
         1,
         null,
@@ -447,6 +476,6 @@
         null
       ]
     },
-    "timestamp": 1447916859
+    "timestamp": 1447997332
   }
 }
